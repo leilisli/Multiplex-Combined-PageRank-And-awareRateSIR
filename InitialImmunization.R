@@ -1,6 +1,6 @@
 #This README provides an overview of the functions included in the code snippet and instructions on how to use them.
 # All of these functions are written in R and rely on igraph for graph/network functionalities. 
-#The code snippet also references a custom function from Codes/MCPR.R, so make sure you have that file available as well.
+#The code snippet also references a custom function from .../MCPR.R, so make sure you have that file available as well.
 
 #Table of Contents
 
@@ -19,7 +19,7 @@
 
    # R (version 3.0 or higher recommended)
    # igraph R package
-    #The MCPR.R script located in the Codes directory (the code calls source('Codes/MCPR.R')).
+    #The MCPR.R script located in the Codes directory (the code calls source('.../MCPR.R')).
 
 #Installation
 
@@ -38,7 +38,7 @@
 #Usage
 
     #Load the MCPR script:
-#source('Codes/MCPR.R')
+#source('.../MCPR.R')
 #Load the immunization code (assuming you saved it as immunization.R):
 #source('immunization.R')
 
@@ -87,7 +87,7 @@
 #--------------awareImmunization(graphContact, graphCom, numImun)-------------#
 
     #Description:
-    #Uses the custom MCPR function (sourced from Codes/MCPR.R) to calculate a multiplex-based ranking. It then removes the top numImun nodes from the ranking.
+    #Uses the custom MCPR function (sourced from .../MCPR.R) to calculate a multiplex-based ranking. It then removes the top numImun nodes from the ranking.
     #Parameters:
        # graphContact: An igraph network (physical/first layer).
         #graphCom: Another igraph network (virtual/second layer).
@@ -119,7 +119,7 @@
 
 #The centrality.csv file contains the MultiplexPR values of the nodes, which you can obtain using the multiplexPageRank function in the multiplexPageRank.m file.
 #-------------------------------------------------------------------------------------------------------#
-source('Codes/MCPR.R')
+source('.../MCPR.R')
 
 InitialImmunization<- function(net,measure,res){
   #res=numImun
