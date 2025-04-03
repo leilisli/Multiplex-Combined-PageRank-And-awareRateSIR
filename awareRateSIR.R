@@ -46,7 +46,7 @@ ________________________________________
 #	Implementation Details:
 #	Two versions are provided:
 #	A sequential version that runs simulations in a loop.
-#	A parallel version that uses the foreach package with %dopar% for concurrent simulation runs.
+#	A parallel version that uses the foreach package for concurrent simulation runs.
 #	After running the simulations, it calculates the mean epidemic size for those runs where the epidemic size exceeded a specified threshold (for example, 0.001 times the total number of nodes).
 
 
