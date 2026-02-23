@@ -36,6 +36,8 @@ This Jupyter Notebook provides additional analysis and exploration of the Copenh
 ```r
 install.packages("igraph")
 library(igraph)
+```
+
 
 To use any of these files, you should use the source command:  
 source(directory)
