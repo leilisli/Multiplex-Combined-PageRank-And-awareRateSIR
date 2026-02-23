@@ -67,13 +67,16 @@ install.packages("igraph")
 library(igraph)
 ```
 ---
-##Usage
+## Usage
 
 To use any of these files, load them with the source() command:
 
 ```r
 source("path_to/MCPR.R")
-source("path_to/awareRateSIR.R")To use any of these files, you should use the source command:  
+source("path_to/awareRateSIR.R") 
 ```
+
+To use any of these files, you should use the source command
+
 ---
 Make sure to update the paths inside read.csv() according to the location where the dataset files are stored.
