@@ -36,7 +36,6 @@ Network construction details:
 Dataset location:  
 **`DataSet/powerlaw.csv`**
 
----
 
 ### 2. Copenhagen Network Dataset (Real-World Data)
 In addition to the synthetic Powerlaw network, this project also uses the **Copenhagen Network dataset**, which contains real-world human interaction and communication data collected in a university environment. This dataset enables realistic modeling of epidemic spreading and awareness diffusion processes.
