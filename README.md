@@ -1,7 +1,18 @@
 # Multiplex-Combined-PageRank-And-awareRateSIR
 
-**MCPR.R** is a function in R to calculate the "Multiplex Combined PageRank" and 'awareRateSIR.R' is a simulation of the SIR model (Susceptible, Infected, Recovered), along with the transfer of information or awareness amongst individuals through a separate communication network.
+## Overview
 
+This repository provides R implementations for analyzing epidemic spreading and awareness diffusion processes in multiplex networks.
+
+The project includes:
+
+- **`MCPR.R`**: A function for computing the *Multiplex Combined PageRank (MCPR)* centrality measure.
+- **`awareRateSIR.R`**: A simulation of the *Susceptible–Infected–Recovered (SIR)* epidemic model, incorporating awareness diffusion through a separate communication layer.
+
+This framework is designed for research in complex networks, multilayer systems, epidemic modeling, and information spreading dynamics.
+
+---
+## Disclaimer
 This program is distributed by the author in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ## Programming Language Used: 
